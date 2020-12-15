@@ -16,3 +16,8 @@ export const TopicTitles = styled.h3`
     text-align:start;
     margin: 32px 0;
 `
+
+export const Subtitles = styled.p`
+    text-align:start;
+    margin: 32px 0;
+`
