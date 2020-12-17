@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../Images/logo-modclima.jpg'
-import {MainContainer, MainTitle, TopicTitles} from './style'
+import {MainContainer, MainTitle, TopicTitles, Subtitles} from './style'
 import dayjs from 'dayjs'
 
 const Home = () => {
@@ -18,6 +18,12 @@ const Home = () => {
             <TopicTitles>
                 Análise das Previsões Meteorológicas (12:00Z):
             </TopicTitles>
+            <Subtitles>
+                De acordo com as fontes de informações meteorológicas do aeroporto do Bacacheri (TAF, Terminal
+                Aerodrome Forecast), imagens de satélite e modelos de previsão atmosférica.
+                <br/>Fontes: https://www.redemet.aer.mil.br, https://www.cptec.inpe.br, www.simepar.br,
+                https://www.meteoblue.com, https://windy.com.
+            </Subtitles>
 
         </MainContainer>
     )
